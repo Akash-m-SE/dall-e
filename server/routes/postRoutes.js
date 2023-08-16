@@ -42,6 +42,7 @@ router.route("/").post(async (req, res) => {
     });
 
     // newPost.save();
+
     // console.log(photoUrl);
 
     res.status(200).json({ success: true, data: newPost });
